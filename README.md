@@ -2,7 +2,7 @@
 2024, Localizable.xcstrings를 csv 파일로 변경하는 코드입니다!
 
 ### 사용 방법
-#### xcstrings  csv
+#### xcstrings ➡️ csv
 - `pip install pandas`로 pandas 설치 (M1의 경우 호환이 안되는 경우가 발생할 수 있습니다. 그런 경우 아래처럼 venv로 가상환경 만들어서 pandas를 설치해주면 됩니다)
 ```
 arch -x86_64 /usr/bin/python3 -m venv venv
@@ -13,7 +13,7 @@ pip install pandas
 - `python main.py` 실행
 - output.csv 파일 생성
 
-#### csv -> xcstrings
+#### csv ➡️ xcstrings
 - `pip install pandas`로 pandas 설치 (M1의 경우 호환이 안되는 경우가 발생할 수 있습니다. 그런 경우 아래처럼 venv로 가상환경 만들어서 pandas를 설치해주면 됩니다)
 ```
 arch -x86_64 /usr/bin/python3 -m venv venv
