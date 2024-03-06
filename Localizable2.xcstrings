@@ -1,0 +1,70 @@
+{
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "apple": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사과"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "apple"
+          }
+        }
+      }
+    },
+    "mango": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "망고"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mango"
+          }
+        }
+      }
+    },
+    "peach": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "복숭아"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "peach"
+          }
+        }
+      }
+    },
+    "zoom in": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "크게 보기"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "zoom in"
+          }
+        }
+      }
+    }
+  }
+}

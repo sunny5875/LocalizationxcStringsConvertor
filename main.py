@@ -19,6 +19,10 @@ def xcstrings_to_csv(input_path, output_path):
         korean_translation = value.get("localizations", {}).get("ko", {}).get("stringUnit", {}).get("value", "")
         english_translation = value.get("localizations", {}).get("en", {}).get("stringUnit", {}).get("value", "")
         
+        # english_translation가 비어있으면 key 값을 사용
+        if not english_translation:
+            english_translation = key
+
         df_data['Key'].append(key)
         df_data['Korean'].append(korean_translation)
         df_data['English'].append(english_translation)
